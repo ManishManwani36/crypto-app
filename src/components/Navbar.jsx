@@ -5,7 +5,7 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-    <Link to='/'>
+    <Link to='/crypto-app'>
     <div className='navbar'>
         <FaCoins className='icon'/>
         <h1>Coin <span className="blue">Surf</span></h1>

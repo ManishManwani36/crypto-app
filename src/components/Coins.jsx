@@ -18,7 +18,7 @@ function Coins({ coins }) {
 
         {coins.map(coins => {
             return (
-              <Link to={`/coin/${coins.id}`} element={<Coin />} key={coins.id}>
+              <Link to={`/crypto-app/coin/${coins.id}`} element={<Coin />} key={coins.id}>
                 <CoinItem coins={coins}/>
               </Link>
             )
