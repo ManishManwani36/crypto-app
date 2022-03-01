@@ -26,8 +26,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Coins coins={coins} />} />
-        <Route path="/coin" element={<Coin />}>
+        <Route path="/crypto-app" element={<Coins coins={coins} />} />
+        <Route path="/crypto-app/coin" element={<Coin />}>
           <Route path=":coinId" element={<Coin />} />
         </Route>
       </Routes>
